@@ -1,6 +1,6 @@
 # Site Information
 site_name: Jacob's House
-site_url: https://jacobs-house.org
+site_url: https://dev3l.github.io/jacobs-house/
 site_author: Jason
 site_description: "A structured, supportive program for rebuilding lives in recovery."
 
@@ -14,8 +14,8 @@ theme:
   font:
     text: "Lato" # Modern and readable sans-serif font for body text
     code: "Fira Code" # Clean monospace font for code blocks
-  favicon: "images/favicon-dark.png"
-  logo: "images/logo-light.png"
+  favicon: "images/favicon.png"
+  logo: "images/logo.png"
 
 # Navigation Structure
 nav:
@@ -39,7 +39,6 @@ plugins:
   - ultralytics:
       verbose: true
       enabled: true
-      default_image: "https://jacobs-house.org/images/banner.png"
       add_desc: true
       add_image: true
       add_keywords: true
