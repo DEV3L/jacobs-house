@@ -22,6 +22,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Programs:
+      - Programs Overview: programs/programs.md
       - Transition Housing: programs/transition-housing.md
       - Sober Living: programs/sober-living.md
       - Advanced Living: programs/advanced-living.md

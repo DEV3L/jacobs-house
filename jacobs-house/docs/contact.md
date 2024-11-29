@@ -24,36 +24,7 @@ Feel free to reach out using the information below, or leave us a message throug
 
 ---
 
-## **Contact Information**
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
-  <div style="flex: 1; min-width: 250px;">
-    <strong>Address:</strong><br>
-    728 Kenmore Blvd.<br>
-    Akron, OH 44314
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <strong>Phone:</strong><br>
-    (513) 823-5225
-  </div>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
-  <div style="flex: 1; min-width: 250px;">
-    <strong>Email:</strong><br>
-    <a href="mailto:contact@jacobs-house.org">contact@jacobs-house.org</a>
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <strong>Social Media:</strong><br>
-    <a href="https://www.facebook.com/jrj92280" target="_blank">Facebook</a>
-  </div>
-</div>
-
----
-
 ## **Leave a Message**
-
-<img src="../images/contact/jacobs-house-mailbox.png" alt="A mailbox with a Pokéball at its base, symbolizing hope and connection" style="display: block; margin: auto; width: 100%; max-width: 800px; margin-bottom: 20px;">
 
 <form
   action="https://formspree.io/f/movqkgpq"
@@ -91,6 +62,35 @@ Feel free to reach out using the information below, or leave us a message throug
   <button type="submit" style="background-color: #0056b3; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer;">Send Message</button>
 
 </form>
+
+---
+
+<img src="../images/contact/jacobs-house-mailbox.png" alt="A mailbox with a Pokéball at its base, symbolizing hope and connection" style="display: block; margin: auto; width: 100%; max-width: 800px; margin-bottom: 20px;">
+
+## **Contact Information**
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1; min-width: 250px;">
+    <strong>Address:</strong><br>
+    728 Kenmore Blvd.<br>
+    Akron, OH 44314
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <strong>Phone:</strong><br>
+    (513) 823-5225
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
+  <div style="flex: 1; min-width: 250px;">
+    <strong>Email:</strong><br>
+    <a href="mailto:contact@jacobs-house.org">contact@jacobs-house.org</a>
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <strong>Social Media:</strong><br>
+    <a href="https://www.facebook.com/jrj92280" target="_blank">Facebook</a>
+  </div>
+</div>
 
 ---
 
