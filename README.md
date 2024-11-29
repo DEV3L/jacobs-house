@@ -10,7 +10,6 @@ Welcome to the Jacob's House repository. This project is dedicated to supporting
   - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Directory Structure](#directory-structure)
   - [Customization](#customization)
   - [Deployment](#deployment)
   - [Contributing](#contributing)
@@ -34,15 +33,22 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/jacobs-house.git
+   git clone https://github.com/dev3l/jacobs-house.git
    cd jacobs-house
    ```
 
-2. **Install dependencies**:
-   Ensure you have Python 3.13.0+ installed, then run:
+2. **Install Hatch**:
+   Ensure you have Hatch installed. You can install it via pip if it's not already installed:
 
    ```bash
-   pip install -r requirements.txt
+   pip install hatch
+   ```
+
+3. **Create and activate the virtual environment**:
+
+   ```bash
+   hatch env create
+   hatch shell
    ```
 
 ## Usage
@@ -54,34 +60,6 @@ mkdocs serve
 ```
 
 Access the site at `http://127.0.0.1:8000`.
-
-## Directory Structure
-
-The project is organized as follows:
-
-```
-jacobs-house/
-├── docs/
-│   ├── index.md
-│   ├── about.md
-│   ├── programs/
-│   │   ├── transition-housing.md
-│   │   ├── sober-living.md
-│   │   └── advanced-living.md
-│   ├── impact/
-│   │   ├── success-stories.md
-│   │   └── community-benefits.md
-│   ├── challenges.md
-│   ├── expansion.md
-│   └── contact.md
-├── images/
-│   ├── logo.png
-│   ├── favicon.ico
-│   └── banner.jpg
-├── stylesheets/
-│   └── extra.css
-└── mkdocs.yml
-```
 
 ## Customization
 

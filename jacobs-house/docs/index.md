@@ -82,7 +82,7 @@ Jacob’s House is more than a program—it’s a promise of transformation. Fro
 
 ## **Ready to Take the Next Step?**
 
-<img src="../images/cta-pathway.png" alt="Pathway to Jacob's House with glowing tiles leading to a radiant home" style="display: block; margin: auto; width: 100%; max-width: 800px; margin-bottom: 20px;">
+<img src="images/cta-pathway.png" alt="Pathway to Jacob's House with glowing tiles leading to a radiant home" style="display: block; margin: auto; width: 100%; max-width: 800px; margin-bottom: 20px;">
 
 At Jacob's House, every step forward is a step toward hope, growth, and transformation. We’re here to guide and support you on your journey.
 
