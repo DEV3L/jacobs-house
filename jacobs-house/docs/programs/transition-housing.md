@@ -75,6 +75,6 @@ Residents are required to adhere to a **sober living contract** that outlines th
 
 At Jacob's House, every step forward is a step toward hope, growth, and transformation. We’re here to guide and support you on your journey.
 
-[Visit Our Contact Page](contact.md) to take the next step.
+[Visit Our Contact Page](../contact.md) to take the next step.
 
 > Jacob’s House isn’t just a place to stay—it’s a place to thrive.

@@ -37,7 +37,7 @@ The **first step in recovery**, Transition Housing focuses entirely on sobriety 
 
 > _"It’s not about finding a job right away—it’s about getting clean, stabilizing, and starting fresh."_ – Jason Jacobs
 
-[Learn More About Transition Housing](programs/transition-housing.md)
+[Learn More About Transition Housing](./transition-housing.md)
 
 ---
 
@@ -55,7 +55,7 @@ For residents who’ve completed the transition phase, **Sober Living** offers m
 
 > _"It’s about building independence while staying accountable."_ – Jason Jacobs
 
-[Learn More About Sober Living](programs/sober-living.md)
+[Learn More About Sober Living](./sober-living.md)
 
 ---
 
@@ -73,7 +73,7 @@ The final step in recovery, **Advanced Living**, prepares residents for complete
 
 > _"It’s a safe space to practice the independence you’ve worked so hard to earn."_ – Jason Jacobs
 
-[Learn More About Advanced Living](programs/advanced-living.md)
+[Learn More About Advanced Living](./advanced-living.md)
 
 ---
 
@@ -83,6 +83,6 @@ The final step in recovery, **Advanced Living**, prepares residents for complete
 
 At Jacob's House, every step forward is a step toward hope, growth, and transformation. We’re here to guide and support you on your journey.
 
-[Visit Our Contact Page](contact.md) to take the next step.
+[Visit Our Contact Page](../contact.md) to take the next step.
 
 > Jacob’s House isn’t just a place to stay—it’s a place to thrive.

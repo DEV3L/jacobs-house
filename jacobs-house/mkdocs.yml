@@ -21,16 +21,12 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - Impact: impact.md
   - Programs:
       - Programs Overview: programs/programs.md
       - Transition Housing: programs/transition-housing.md
       - Sober Living: programs/sober-living.md
       - Advanced Living: programs/advanced-living.md
-  - Impact:
-      - Success Stories: impact/success-stories.md
-      - Community Benefits: impact/community-benefits.md
-  - Challenges: challenges.md
-  - Expansion Plans: expansion.md
   - Contact: contact.md
 
 # Plugins
