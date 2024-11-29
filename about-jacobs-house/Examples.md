@@ -1,3 +1,8 @@
+## Page Examples for Reference
+
+### index.md
+
+```
 ---
 title: "Welcome to Jacob's House"
 description: "Jacob's House offers structured sober living programs to rebuild lives after addiction, providing a safe, supportive, and transformative environment."
@@ -80,12 +85,82 @@ Jacob’s House is more than a program—it’s a promise of transformation. Fro
 
 ---
 
-## **Ready to Take the Next Step?**
+### Contact Us
 
-<img src="../images/cta-pathway.png" alt="Pathway to Jacob's House with glowing tiles leading to a radiant home" style="display: block; margin: auto; width: 100%; max-width: 800px; margin-bottom: 20px;">
+<img src="images/contact/connect-social.png" alt="Connect with Jacob's House" style="display: block; margin: auto; width: 100%; max-width: 500px; margin-bottom: 20px;">
 
-At Jacob's House, every step forward is a step toward hope, growth, and transformation. We’re here to guide and support you on your journey.
+- **Email**: [contact@jacobs-house.org](mailto:jrj92280@gmail.com)
+- **Phone**: (513) 823-5225
+- **Address**: 728 Kenmore Blvd., Akron, OH 44314
+```
 
-[Visit Our Contact Page](contact.md) to take the next step.
+### mkdocs.yml
 
-> Jacob’s House isn’t just a place to stay—it’s a place to thrive.
+```
+# Site Information
+site_name: Jacob's House
+site_url: https://dev3l.github.io/jacobs-house/
+site_author: Jason
+site_description: "A structured, supportive program for rebuilding lives in recovery."
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    primary: "blue" # Calm and stable primary color
+    accent: "orange" # Warm secondary accent for highlights
+    scheme: "slate" # Accessible dark background with high-contrast elements
+  font:
+    text: "Lato" # Modern and readable sans-serif font for body text
+    code: "Fira Code" # Clean monospace font for code blocks
+  favicon: "images/favicon.png"
+  logo: "images/logo.png"
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - About: about.md
+  - Programs:
+      - Transition Housing: programs/transition-housing.md
+      - Sober Living: programs/sober-living.md
+      - Advanced Living: programs/advanced-living.md
+  - Impact:
+      - Success Stories: impact/success-stories.md
+      - Community Benefits: impact/community-benefits.md
+  - Challenges: challenges.md
+  - Expansion Plans: expansion.md
+  - Contact: contact.md
+
+# Plugins
+plugins:
+  - search
+  - macros
+  - ultralytics:
+      verbose: true
+      enabled: true
+      add_desc: true
+      add_image: true
+      add_keywords: true
+      add_json_ld: true
+      add_css: true
+  - minify_html
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - overrides/footer.js
+```
