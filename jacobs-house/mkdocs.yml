@@ -1,0 +1,67 @@
+# Site Information
+site_name: Jacob's House
+site_url: https://jacobs-house.org
+site_author: Jason
+site_description: "A structured, supportive program for rebuilding lives in recovery."
+
+# Theme Configuration
+theme:
+  name: material
+  palette:
+    primary: "blue" # Calm and stable primary color
+    accent: "orange" # Warm secondary accent for highlights
+    scheme: "slate" # Accessible dark background with high-contrast elements
+  font:
+    text: "Lato" # Modern and readable sans-serif font for body text
+    code: "Fira Code" # Clean monospace font for code blocks
+  favicon: "images/favicon-dark.png"
+  logo: "images/logo-light.png"
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - About: about.md
+  - Programs:
+      - Transition Housing: programs/transition-housing.md
+      - Sober Living: programs/sober-living.md
+      - Advanced Living: programs/advanced-living.md
+  - Impact:
+      - Success Stories: impact/success-stories.md
+      - Community Benefits: impact/community-benefits.md
+  - Challenges: challenges.md
+  - Expansion Plans: expansion.md
+  - Contact: contact.md
+
+# Plugins
+plugins:
+  - search
+  - macros
+  - ultralytics:
+      verbose: true
+      enabled: true
+      default_image: "https://jacobs-house.org/images/banner.png"
+      add_desc: true
+      add_image: true
+      add_keywords: true
+      add_json_ld: true
+      add_css: true
+  - minify_html
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - overrides/footer.js

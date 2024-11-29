@@ -1,0 +1,24 @@
+/* Footer Styling */
+footer {
+  text-align: center;
+  background-color: #003366; /* Navy Blue footer */
+  color: #ffffff; /* White text */
+  padding: 1em 0;
+}
+
+footer a {
+  color: #ffd700; /* Gold links in footer */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer.md-footer {
+  display: none !important;
+}
+
+.share-buttons {
+  display: none !important;
+}
