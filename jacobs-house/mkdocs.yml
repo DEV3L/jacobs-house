@@ -8,12 +8,12 @@ site_description: "A structured, supportive program for rebuilding lives in reco
 theme:
   name: material
   palette:
-    primary: "blue" # Calm and stable primary color
-    accent: "orange" # Warm secondary accent for highlights
-    scheme: "slate" # Accessible dark background with high-contrast elements
+    scheme: slate
+    primary: blue grey
+
   font:
-    text: "Lato" # Modern and readable sans-serif font for body text
-    code: "Fira Code" # Clean monospace font for code blocks
+    text: "Lato"
+    code: "Fira Code"
   favicon: "images/favicon.png"
   logo: "images/logo.png"
 
